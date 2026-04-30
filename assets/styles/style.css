@@ -20,94 +20,26 @@
     display: flex;
     justify-content: center;
     height: 500px;
+    size: 200px;
 
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.container {
+    padding: 10px;
+    background-color: rgb(28, 92, 148);
+
+    border-radius: 3%;
+    margin: 5% 20% 0% 20%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
 
 
 .loginFundo {
-    background-image: url(../img/thumbbig-876590.webp);
+    background-image: url(../img/fundo_login.jpg);
     background-size: cover;
 }
