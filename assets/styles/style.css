@@ -1,7 +1,8 @@
-.bodyindex {
+#index {
 
     background-image: url(../img/thumb-1920-1330376.png);
     background-size: cover;
+
 
 }
 
@@ -13,7 +14,7 @@
 
 }
 
-<<<<<<< HEAD
+
 .botao {
 
     align-items: last baseline;
@@ -22,8 +23,9 @@
     height: 500px;
    size: 200px;
 
+}
 
-=======
+
 
 
 
@@ -111,5 +113,4 @@
 .loginFundo {
     background-image: url(../img/thumbbig-876590.webp);
     background-size: cover;
->>>>>>> dc02bcaeaaf85da41867a929ae5575862f35635b
 }
