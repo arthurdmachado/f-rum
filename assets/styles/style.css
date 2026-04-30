@@ -1,7 +1,8 @@
-.bodyindex {
+#index {
 
     background-image: url(../img/thumb-1920-1330376.png);
     background-size: cover;
+
 
 }
 
@@ -20,8 +21,9 @@
     justify-content: center;
     height: 500px;
    size: 200px;
-}
 
+
+=======
 
 
 
