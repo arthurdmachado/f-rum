@@ -1,4 +1,4 @@
-body {
+.bodyindex {
 
     background-image: url(../img/thumb-1920-1330376.png);
     background-size: cover;
@@ -10,5 +10,16 @@ body {
     align-items: center;
     display: flex;
     justify-content: center;
+
+}
+
+.botao {
+
+    align-items: last baseline;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+   size: 200px;
+
 
 }
