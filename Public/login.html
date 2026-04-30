@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login e Cadastro</title>
     <link rel="stylesheet" href="../assets/styles/style.css">
-    
+
 
 </head>
-
+<div class="loginFundo">
 <header>
     <div class="titulo">
         <img src="../assets/img/Rick_and_Morty_logo.svg">
@@ -16,39 +16,42 @@
 </header>
 
 <body>
+    
 
-    <main>
+        <main>
 
-        <div class="container">
-            <h2 id="titulo">Login</h2>
+            <div class="container">
+                <h2 id="titulo">Login</h2>
 
-            <form id="form-login">
-                <div id="c-email" classe="conjunto">
-                    <label for="email">Email: </label>
-                    <input type="email" id="email" placeholder="Email" required>
+                <form id="form-login">
+                    <div id="c-email" classe="conjunto">
+                        <label for="email">Email: </label>
+                        <input type="email" id="email" placeholder="Email" required>
+                    </div>
+
+                    <div id="c-senha" classe="conjunto">
+                        <label for="senha">Senha: </label>
+                        <input type="senha" id="senha" placeholder="Senha" required>
+                    </div>
+
+                    <button id="botao-envio" type="submit">Entrar</button>
+
+                </form>
+
+                <div id="mensagem"></div>
+                <div class="toggle" id="toggle">
+                    <p> Não tem conta? Cadastre-se! </p>
+
                 </div>
-
-                <div id="c-senha" classe="conjunto">
-                    <label for="senha">Senha: </label>
-                    <input type="senha" id="senha" placeholder="Senha" required>
-                </div>
-
-                <button id="botao-envio" type="submit">Entrar</button>
-
-            </form>
-
-            <div id="mensagem"></div>
-            <div class="toggle" id="toggle">
-                <p> Não tem conta? Cadastre-se! </p>
 
             </div>
 
-        </div>
+        </main>
 
-    </main>
+        <script src="script.js"></script>
 
-    <script src="script.js"></script>
-
+    
 </body>
+</div>
 
 </html>
