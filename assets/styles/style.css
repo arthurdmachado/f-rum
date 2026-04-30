@@ -13,7 +13,6 @@
 
 }
 
-<<<<<<< HEAD
 .botao {
 
     align-items: last baseline;
@@ -21,9 +20,8 @@
     justify-content: center;
     height: 500px;
    size: 200px;
+}
 
-
-=======
 
 
 
@@ -111,5 +109,4 @@
 .loginFundo {
     background-image: url(../img/thumbbig-876590.webp);
     background-size: cover;
->>>>>>> dc02bcaeaaf85da41867a929ae5575862f35635b
 }
