@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 let cadastro = false;
 
 document.getElementById("toggle").onclick = () => {
@@ -42,4 +43,13 @@ document.getElementById("form-login").onsubmit = (e) => {
     }
 
     document.getElementById("form-login").reset();
+=======
+function mudarLogin(){
+    window.location.href = "public/login.html";
+
+}
+function voltaIndex(){
+    window.location.href = "../index.html";
+
+>>>>>>> 8dc21b77cb2f73c54a6949ababe47a15c4d46d1f
 }
